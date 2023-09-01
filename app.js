@@ -26,7 +26,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
 //making a connection to the database using the mongoose
-mongoose.connect('mongodb://localhost/todolistDB', {
+mongoose.connect('mongodb+srv://admin-gowtham:sai123gowtham@cluster0.vj5i6km.mongodb.net/todolistDB', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     family: 4
